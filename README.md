@@ -3,6 +3,7 @@
 ###### This is a MVVM Application with Paging 3 implementation in it. This app uses Rick & Morty Api for fetching data in it.
 
 # About The Project
+https://user-images.githubusercontent.com/61506756/209427742-1defd8fa-91e9-4c73-8d7d-f70019878474.mp4
 
 # Built With
 + MVVM Architecture
