@@ -1,9 +1,11 @@
 ﻿# MVVM_Paging3_Application
 
-###### This is a MVVM Application with Paging 3 implementation in it. This app uses Rick & Morty Api for fetching data in it.
+This is a MVVM Application with Paging 3 implementation in it that uses Rick & Morty Api for fetching data.
+https://camo.githubusercontent.com/64f18741a429af9d8f1420609025c2924add97c592a52083f4256d62215fb5b5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d4b6f746c696e2d627269676874677265656e
 
 # About The Project
 https://user-images.githubusercontent.com/61506756/209427742-1defd8fa-91e9-4c73-8d7d-f70019878474.mp4
+
 
 # Built With
 + MVVM Architecture
@@ -16,6 +18,7 @@ https://user-images.githubusercontent.com/61506756/209427742-1defd8fa-91e9-4c73-
 + Kotlin Coroutines.
 + Kotlin Flow.
 
+
 # Benefits of using Paging Library
 Paging 3 includes the following features that were not present in earlier versions of the library:
 
@@ -25,12 +28,14 @@ Paging 3 includes the following features that were not present in earlier versio
 + Improvements to the repository layer, including cancellation support and a simplified data source interface.
 + Improvements to the presentation layer, list separators, custom page transforms, and loading state headers and footers.
 
+
 # Contributing
 1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
+
 
 # License
 Distributed under the MIT License. See `LICENSE` for more information.
