@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Dolphin | 2021.3.1 Patch 1">
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `drawable`.">
+        <location
+            file="src\main\res\drawable-v24"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src\main\res\mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_200` appears to be unused">
+        <location
+            file="src\main\res\values\colors.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.grey` appears to be unused">
+        <location
+            file="src\main\res\values\colors.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/splash_icon.jpg` in densityless folder">
+        <location
+            file="src\main\res\drawable\splash_icon.jpg"/>
+    </issue>
+
+    <issue
+        id="IconExtension"
+        message="Misleading file extension; named `.jpg` but the file format is `png`">
+        <location
+            file="src\main\res\drawable\splash_icon.jpg"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\character_layout.xml"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\character_layout.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\character_layout.xml"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\character_layout.xml"
+            line="63"/>
+    </issue>
+
+</issues>

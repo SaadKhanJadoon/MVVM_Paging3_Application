@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.skydoves.androidveil.VeilRecyclerFrameView
+        android:id="@+id/veilRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:veilFrame_baseAlpha="0.6"
+        app:veilFrame_baseColor="@color/shimmer_color"
+        app:veilFrame_highlightAlpha="1.0"
+        app:veilFrame_highlightColor="@color/shimmer_color"
+        app:veilFrame_isItemWrapContentHeight="true"
+        app:veilFrame_isItemWrapContentWidth="false"
+        app:veilFrame_layout="@layout/character_layout"
+        app:veilFrame_radius="5dp"
+        app:veilFrame_veiled="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:theme="@style/progressBarStyle"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
