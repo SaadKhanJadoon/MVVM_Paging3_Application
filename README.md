@@ -1,16 +1,16 @@
 ﻿# MVVM_Paging3_Application
 
-This is a MVVM Application with Paging 3 implementation in it that uses Rick & Morty Api for fetching data.
-https://camo.githubusercontent.com/64f18741a429af9d8f1420609025c2924add97c592a52083f4256d62215fb5b5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d4b6f746c696e2d627269676874677265656e
+This is a MVVM App with Paging 3 implementation that uses [Rick & Morty Api](https://rickandmortyapi.com/) for fetching data.
+
 
 # About The Project
 https://user-images.githubusercontent.com/61506756/209427742-1defd8fa-91e9-4c73-8d7d-f70019878474.mp4
 
 
 # Built With
++ Paging 3.
 + MVVM Architecture
 + Modern Splash Screen
-+ Paging 3.
 + Retrofit (for API Calling).
 + Hilt Dependency Injection.
 + Facebook Shimmer Layout.
